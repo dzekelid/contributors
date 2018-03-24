@@ -11,9 +11,9 @@ tags:
 - Media
 - Communications
 - Blogging
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/contributors/master/_listings/medium/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/contributors/master/_listings/medium/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Medium
@@ -25,7 +25,7 @@ apis:
   tags: Contributors
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/contributors/master/_listings/medium/publications-publicationid-contributors-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contributors/master/_listings/medium/publications-publicationid-contributors-get.md
 x-common:
 - type: x-github
   url: https://github.com/Medium
