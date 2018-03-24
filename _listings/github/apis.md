@@ -40,7 +40,7 @@ apis:
   tags: Contributors
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contributors/master/_listings/github/repos-owner-repo-contributors-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contributors/master/_listings/github/repos-owner-repo-stats-contributors-get.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
