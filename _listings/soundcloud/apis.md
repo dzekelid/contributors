@@ -34,7 +34,42 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/contributors/master/_listings/soundcloud/groups-group-id-contributors-json-get.md
+- name: SoundCloud Get Group Contributors
+  description: Returns a collection of contributors of the group with group id
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
+  humanURL: http://soundcloud.com
+  baseURL: https://api.soundcloud.com//
+  tags: Contributors
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/contributors/master/_listings/soundcloud/groups-group-id-contributors-json-get.md
 x-common:
+- type: x-base
+  url: https://api.soundcloud.com
+- type: x-blog
+  url: http://blog.soundcloud.com
+- type: x-blog-rss
+  url: http://blog.soundcloud.com/feed/
+- type: x-console
+  url: https://developers.soundcloud.com/console
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/soundcloud
+- type: x-developer
+  url: http://developers.soundcloud.com
+- type: x-github
+  url: https://github.com/soundcloud
+- type: x-pricing
+  url: https://on.soundcloud.com/
+- type: x-privacy
+  url: https://soundcloud.com/pages/privacy
+- type: x-support
+  url: https://soundcloud.com/imprint
+- type: x-terms-of-service
+  url: https://soundcloud.com/terms-of-use
+- type: x-twitter
+  url: https://twitter.com/soundcloudapi
+- type: x-website
+  url: http://soundcloud.com
 - type: x-base
   url: https://api.soundcloud.com
 - type: x-blog
