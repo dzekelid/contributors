@@ -1,11 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Medium.com
-  description: Medium&rsquo;s unofficial API documentation using OpenAPI specification.#
-    Official APIOfficial API document can also be viewed for most up to date API spec
-    at [https://github.com/Medium/medium-api-docs](https://github.com/Medium/medium-api-docs).Developer
-    Blog - [Welcome to the Medium API](https://medium.com/blog/welcome-to-the-medium-api-3418f956552)
+  title: Medium Contributors of Publication
+  description: This endpoint returns a list of contributors for a given publication.
+    In other words, a list of Medium users who are allowed to publish under a publication,
+    as well as a description of their exact role in the publication (for now, either
+    an editor or a writer).
   termsOfService: https://medium.com/@feerst/2b405a832a2f
   contact:
     name: Hossain Khan
