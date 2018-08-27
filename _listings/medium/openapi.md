@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Medium
 x-complete: 1
@@ -39,4 +38,3 @@ paths:
       - Publications
       - Publication
       - Contributors
----

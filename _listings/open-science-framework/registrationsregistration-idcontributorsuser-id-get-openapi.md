@@ -1,9 +1,16 @@
+---
 swagger: "2.0"
 x-collection-name: Open Science Framework
-x-complete: 1
+x-complete: 0
 info:
-  title: Open Science Framework
-  description: osf-provides-free-and-open-source-project-management-support-for-researchers-across-the-entire-research-lifecycle--as-a-collaboration-tool-osf-helps-researchers-work-on-projects-privately-with-a-limited-number-of-collaborators-and-make-parts-of-their-projects-public-or-make-all-the-project-publicly-accessible-for-broader-dissemination--as-a-workflow-system-osf-enables-connections-to-the-many-services-researchers-already-use-to-streamline-their-process-and-increase-efficiency--as-a-flexible-repository-it-can-store-and-archive-research-data-protocols-and-materials--
+  title: Open Science Framework Retrieve a contributor
+  description: |-
+    Retrieves the details of a contributor on this registration.
+
+    #### Returns
+    Returns a JSON object with a `data` key containing the representation of the requested contributor, if the request is successful.
+
+    If the request is unsuccessful, an `errors` key containing information about the failure will be returned. Refer to the [list of error codes](#Introduction_error_codes) to understand why this request may have failed.
   contact:
     name: OSF
     url: https://osf.io/support
@@ -245,3 +252,17 @@ paths:
       - Registration
       - Contributors
       - User
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
